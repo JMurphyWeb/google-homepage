@@ -1,0 +1,144 @@
+body{
+  font-family: sans-serif;
+  background-color: white;
+  position: absolute;
+  height: 100%;
+
+}
+#header {
+  position: fixed;
+  height: 60px;
+  top: 0px;
+  margin: 0px 0px 0px -8px;
+  width: 100%;
+  z-index: 1;
+}
+
+#h_text {
+  float: right;
+  margin-right: 20px;
+  position: relative;
+  
+}
+
+#h_text p{
+  position: relative;
+  display: inline-block;
+  height: 30px;
+  padding: 0px 5px 0px 10px;
+  top: 3px;
+  color: #313149;
+  font-size: 14px;
+}
+
+#h_text p:hover{
+  text-decoration: underline;
+}
+
+#h_text img{
+  position: relative;
+  display: inline-block;
+  height: 30px;
+  padding: 0px 5px 0px 10px;
+  top: 12px;
+}
+#h_text img:hover {
+  transform: rotate(90deg);
+  transition: 0.3s;
+}
+
+#main {
+margin: 60px 0px 40px 0px;
+}
+
+#container {
+  position: fixed;
+  height: 300px;
+  width: 600px;
+  top: 25%;
+  bottom: 30%;
+  left: 30%;
+  right: 30%;
+}
+
+#logo {
+  position: relative;
+  height: 100px;
+  margin: auto;
+  left: 150px;
+}
+
+#search_field {
+  top: 20px;
+  position: relative;
+  border: 1px solid #CECFCE;
+  height: 30px;
+  width: 600px; 
+}
+
+#search_buttons {
+  position: relative;
+  margin-left: 160px;
+  top: 20px;
+}
+
+#google_search, #feeling_lucky {
+  display: inline-block;
+  padding: 5px 12px 6px 12px;
+}
+
+
+
+.button {
+  background-color: #EEEEEE  ;
+  font-size: 12px;
+  font-weight: bold;
+  border: 1px  #E6E6E6  solid;
+  border-radius: 1px;
+}
+
+#google_search:hover{
+  border: 1px #BABABA solid;
+}
+#feeling_lucky:hover{
+  border: 1px #BABABA solid;
+}
+
+#footer {
+  border: 1px #E6E6E6  solid;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  margin: 0px 0px 0px -8px;
+  background-color: #EEEEEE;
+  height: 40px;
+  font-size: 13px;
+}
+
+#text_right p, #text_left p {
+  position: relative;
+  display: inline-block;
+}
+
+#text_right p{
+  margin-right: 40px;
+  float: right;
+  position: relative;
+
+}
+
+#text_right p:hover {
+  text-decoration: underline;
+}
+
+#text_left p{
+  margin-left: 20px;
+  float: left;
+  position: relative;
+  font-size: 13px;
+  color: #313149;
+}
+
+#text_left p:hover {
+  text-decoration: underline;
+}
